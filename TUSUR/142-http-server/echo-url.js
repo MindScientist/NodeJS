@@ -5,6 +5,7 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, `http://${hostname}:${port}`)
+  console.log(res.)
 
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');

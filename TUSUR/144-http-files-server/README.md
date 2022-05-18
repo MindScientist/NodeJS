@@ -1,1 +1,0 @@
-This is my optional develop of http server that shows directory content and allows upload and download files.
