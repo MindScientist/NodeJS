@@ -1,0 +1,19 @@
+{
+  "name": "first-expressjs-server",
+  "version": "1.0.0",
+  "description": "My first expressjs server",
+  "main": "app.js",
+  "keywords": [
+    "express"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js",
+    "debug": "nodemon --inspect ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "author": "Alex Zharinov",
+  "license": "ISC"
+}
