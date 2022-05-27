@@ -37,7 +37,7 @@ const requestHandler = (req, res) => {
                 req.on('end', () => {
                     const parsedBody = Buffer.concat(body).toString();
                     const userName = parsedBody.split('=')[1];
-                    console.log(userName);
+                    //console.log(userName);
                 });
             }
             res.statusCode = 302;
