@@ -16,6 +16,8 @@ router.post('/add-product', (req, res, next) => {
 router.get('/add-product', (req, res, next) => {
   res.render('add-product', {
     path : '/admin/add-product',
+    activeAdmin: true, activeShop: false,
+    adminCSS: true, shopCSS: true,
     links: {
       shop: {src: '/', title: 'Shop'},
       addProduct: {src: '/admin/add-product', title: 'Add Product'}
