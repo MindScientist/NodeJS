@@ -1,2 +1,2 @@
 # NodeJS
-Studying exmple of online shop on Express.js.
+Studying example of online shop on Express.js.
