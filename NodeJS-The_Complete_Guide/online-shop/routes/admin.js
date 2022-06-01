@@ -1,6 +1,4 @@
 const express = require('express');
-const path = require('path');
-const rootDir = require('../util/path');
 
 const router = express.Router();
 
@@ -15,9 +13,7 @@ router.post('/add-product', (req, res, next) => {
 // /admin/add-product => GET
 router.get('/add-product', (req, res, next) => {
   res.render('add-product', {
-    path : '/admin/add-product',
-    activeAdmin: true, activeShop: false,
-    adminCSS: true, shopCSS: true,
+    path : '/admin/add-product', docTitle: 'Add product',
     links: {
       shop: {src: '/', title: 'Shop'},
       addProduct: {src: '/admin/add-product', title: 'Add Product'}
