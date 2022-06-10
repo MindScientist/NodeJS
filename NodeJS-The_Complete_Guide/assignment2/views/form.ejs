@@ -1,0 +1,8 @@
+<%- include('includes/header.ejs')%>
+<%- include('includes/nav.ejs')%>
+<h1><%= docTitle %></h1>
+<form action="<%= formAction %>" method="post">
+    <input type="text" name="userName" placeholder="Give user a name">
+    <button type="submit">Add user</button>
+</form>
+<%- include('includes/footer.ejs')%>

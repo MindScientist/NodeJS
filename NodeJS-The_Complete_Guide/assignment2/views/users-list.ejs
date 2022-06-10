@@ -1,0 +1,13 @@
+<%- include('includes/header.ejs')%>
+<%- include('includes/nav.ejs')%>
+<h1><%= docTitle %></h1>
+<% if(users.length) { %>
+<ul>
+    <% for(let user of users) { %>
+    <li><%= user %></li>
+    <% } %>
+</ul>
+<% } else { %>
+<p>No users added yet</p>
+<% } %>
+<%- include('includes/footer.ejs')%>

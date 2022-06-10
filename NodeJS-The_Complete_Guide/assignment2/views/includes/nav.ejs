@@ -1,0 +1,5 @@
+<div class="">
+    <% for (let link of links) { %>
+        <a href="<%= link.src %>" class="<%= link.src === path ? 'active' : '' %>"><%= link.title %></a>
+    <% } %>
+</div>
