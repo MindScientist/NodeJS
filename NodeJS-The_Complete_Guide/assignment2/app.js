@@ -21,6 +21,6 @@ app.use((req, res, next) => {
       { src: '/users', title: 'Users list' },
     ]
   });
-})
+});
 
 app.listen(3000);
